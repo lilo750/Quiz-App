@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+    <head>
+        <meta charset="UTF-8" />
+        <link rel="icon" type="image/svg+xml" href="public/favicon-32x32.png" />
+        <!-- <link rel="stylesheet" href="style.scss" /> -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Quiz App</title>
+    </head>
+    <script type="module" defer src="/src/main.ts"></script>
+    <body>
+        <div
+            id="app"
+            class="py-16 px-28 bg-white dark:bg-gray-800 dark:text-gray-200"
+        >
+            <header class="flex justify-end items-center space-x-3">
+                <!-- <img src="/public/icon-sun-dark.svg" alt="sun icon" /> -->
+                <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    fill="#fff"
+                    viewBox="0 0 24 24"
+                >
+                    <path
+                        fill="#626C7F"
+                        d="M12 1.5a.75.75 0 0 1 .75.75v1.5a.75.75 0 1 1-1.5 0v-1.5A.75.75 0 0 1 12 1.5Zm0 15a4.5 4.5 0 1 0 0-9 4.5 4.5 0 0 0 0 9Zm0-1.5a3 3 0 1 1 0-6 3 3 0 0 1 0 6Zm9.75-2.25a.75.75 0 1 0 0-1.5h-1.5a.75.75 0 1 0 0 1.5h1.5ZM12 19.5a.75.75 0 0 1 .75.75v1.5a.75.75 0 1 1-1.5 0v-1.5a.75.75 0 0 1 .75-.75Zm-8.25-6.75a.75.75 0 1 0 0-1.5h-1.5a.75.75 0 1 0 0 1.5h1.5Zm.969-8.031a.75.75 0 0 1 1.062 0l1.5 1.5a.751.751 0 0 1-1.062 1.062l-1.5-1.5a.75.75 0 0 1 0-1.062Zm1.062 14.562a.75.75 0 1 1-1.062-1.06l1.5-1.5a.75.75 0 1 1 1.062 1.06l-1.5 1.5Zm13.5-14.562a.75.75 0 0 0-1.062 0l-1.5 1.5a.751.751 0 0 0 1.062 1.062l1.5-1.5a.75.75 0 0 0 0-1.062Zm-1.062 14.562a.75.75 0 0 0 1.062-1.06l-1.5-1.5a.75.75 0 0 0-1.062 1.06l1.5 1.5Z"
+                    />
+                </svg>
+                <div>
+                    <input type="checkbox" id="toggle" class="hidden" />
+                    <label for="toggle">
+                        <div
+                            class="rounded-full p-1 w-14 h-7 flex items-center bg-gray-300 dark:bg-sky-500 ml-auto"
+                        >
+                            <div
+                                class="toggle-btn w-4 h-4 bg-white rounded-full shadow-md"
+                            ></div>
+                        </div>
+                    </label>
+                </div>
+                <img src="/public/icon-moon-dark.svg" alt="moon icon" />
+            </header>
+        </div>
+    </body>
+</html>

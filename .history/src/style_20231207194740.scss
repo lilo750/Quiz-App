@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#toggle:checked ~ label {
+    .toggle-btn {
+        @apply translate-x-8;
+    }
+}
